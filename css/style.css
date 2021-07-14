@@ -16,6 +16,7 @@ ul li{
 ul{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 a{
     color: #FFFFFF;
@@ -128,6 +129,27 @@ header{
 .moments{
     width: 300px;
 }
-.moments img{
+.moments iframe{
     width: 500px;
+}
+
+/* footer-area */
+.footer-area {
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+.footer-area img{
+    width: 415px;
+}
+.social-icon i {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #969BAB;
+    margin: 20px 0;
+}
+.footer-area p {
+    text-align: center;
 }
