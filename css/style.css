@@ -10,8 +10,9 @@
 header{
     background-color: #2D25A0;
 }
-.header-container{
-    width: 1440px;
+.header-container {
+    width: 1200px;
+    height: 100%;
 }
 .menu-bar{
     display: flex;
@@ -32,11 +33,43 @@ a{
     margin: 0 36px;
     font-weight: 500;
     font-size: 16px;
+    transition: 1s;
+}
+.menu ul li:hover a{
+    color: lightcoral;
 }
 
 /* login css */
 .login {
     background-color: #E02C6D;
     padding: 10px 24px;
-    width: 123px;
+}
+
+.login ul {
+    display: flex;
+}
+/* slider css */
+.slider-area{
+    display: flex;
+}
+.left-slider{
+    width: 200px;
+    color: #FFFFFF;
+}
+.left-slider h1{
+    margin-bottom: 27px;
+}
+img {
+    width: 556.01px;
+}
+.watch-area {
+    width: 89px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.watch-area ul{
+    display: flex;
+}
+#watch {
+    margin: 0;
 }
