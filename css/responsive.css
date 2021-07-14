@@ -2,6 +2,9 @@
     .container{
         width:100%;
     }
+    .left-slider h1 {
+        margin-left: 10px;
+    }
     .menu ul {
         display: flex;
         flex-direction: column;
