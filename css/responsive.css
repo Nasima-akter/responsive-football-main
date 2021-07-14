@@ -1,0 +1,61 @@
+@media screen and (max-width:668px) {
+    .container{
+        width:100%;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav.menu {
+        padding: 15px;
+    }
+    .menu-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .login {
+        margin-left: 35px;
+    }
+    .slider-area {
+        display: flex;
+        flex-direction: column;
+    }
+    .right-slider img {
+        width: 336px;
+        margin-bottom: 60px;
+        transition-duration: 2s;
+        margin-left: 20px;
+    }
+    .player-album {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px 30px;
+    }
+    .Highlightd {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .headline p {
+        padding: 15px;
+    }
+    .headline h2 {
+        padding: 15px;
+    }
+    .login {
+        margin-left: 10px;
+    }
+    .moments iframe {
+        width: 354px;
+        padding: 10px;
+    }
+    .footer-area img {
+        width: 250px;
+        margin-left: 85px;
+    }
+}

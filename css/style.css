@@ -79,6 +79,10 @@ header{
 .right-slider img {
     width: 383px;
     margin-bottom: 60px;
+    transition-duration: 2s;
+}
+header:hover img{
+    transform: rotate(45deg);
 }
 .watch-area {
     width: 129px;
@@ -153,3 +157,5 @@ header{
 .footer-area p {
     text-align: center;
 }
+
+
