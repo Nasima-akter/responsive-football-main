@@ -6,20 +6,9 @@
     margin: 0;
     padding: 0;
 }
-/* header css */
-header{
-    background-color: #2D25A0;
-}
 .container{
     width: 920px;
     margin: auto;
-}
-
-.menu-bar {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 42px;
-    align-items: center;
 }
 ul li{
     list-style: none;
@@ -35,6 +24,25 @@ a{
     font-weight: 500;
     font-size: 16px;
     transition: .5s;
+}
+h2{
+    line-height: 40px;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 28px;
+}
+ p{
+    line-height: 26px;
+}
+/* header css */
+header{
+    background-color: #2D25A0;
+}
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    align-items: center;
 }
 .menu ul li:hover a{
     color: #2D25A0;
@@ -81,7 +89,7 @@ a{
 /* player album */
 .player-list{
     margin-top: 70px;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .player-album{
@@ -100,10 +108,26 @@ a{
     width: 100%;
     height: auto;
 }
-.player h2{
-    line-height: 40px;
-    margin: 10px 0;
+
+/* Highlights area  */
+.Highlightd{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
 }
-.player p{
-    line-height: 26px;
+.headline{
+    width: 300px;
+}
+.headline h2{
+    font-size: 36px;
+}
+.headline p {
+    margin-bottom: 24px;
+}
+.moments{
+    width: 300px;
+}
+.moments img{
+    width: 500px;
 }
