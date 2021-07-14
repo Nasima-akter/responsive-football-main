@@ -10,15 +10,15 @@
 header{
     background-color: #2D25A0;
 }
-.header-container {
-    width: 1200px;
-    height: 100%;
+.container{
+    width: 920px;
+    margin: auto;
 }
-.menu-bar{
+
+.menu-bar {
     display: flex;
-    width: 1164px;
-    justify-content: space-around;
-    padding-top: 52px;
+    justify-content: space-between;
+    padding-top: 42px;
     align-items: center;
 }
 ul li{
@@ -26,50 +26,84 @@ ul li{
 }
 ul{
     display: flex;
+    align-items: center;
 }
 a{
     color: #FFFFFF;
     text-decoration: none;
-    margin: 0 36px;
+    padding: 10px 20px;
     font-weight: 500;
     font-size: 16px;
-    transition: 1s;
+    transition: .5s;
 }
 .menu ul li:hover a{
-    color: lightcoral;
+    color: #2D25A0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
 }
 
 /* login css */
 .login {
     background-color: #E02C6D;
-    padding: 10px 24px;
+    padding: 4px 7px;
 }
-
-.login ul {
-    display: flex;
+.login ul i{
+    color: #FFFFFF;
+    align-items: center;
+}
+.login ul a{
+    margin: 0;
 }
 /* slider css */
 .slider-area{
     display: flex;
 }
 .left-slider{
-    width: 200px;
+    width: 307px;
     color: #FFFFFF;
+    margin-bottom: 60px;
 }
-.left-slider h1{
+.left-slider h1 {
     margin-bottom: 27px;
+    font-size: 50px;
 }
-img {
-    width: 556.01px;
+.right-slider img {
+    width: 383px;
+    margin-bottom: 60px;
 }
 .watch-area {
-    width: 89px;
-    background-color: #E02C6D;
-    padding: 10px 24px;
-}
-.watch-area ul{
-    display: flex;
+    width: 129px;
 }
 #watch {
     margin: 0;
+    padding: 8px;
+}
+/* player album */
+.player-list{
+    margin-top: 70px;
+    margin-bottom: 160px;
+}
+
+.player-album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 30px;
+}
+.player {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    padding: 15px 15px 33px;
+    border-radius: 5px;
+    
+}
+.player img{
+    width: 100%;
+    height: auto;
+}
+.player h2{
+    line-height: 40px;
+    margin: 10px 0;
+}
+.player p{
+    line-height: 26px;
 }
